@@ -5,7 +5,7 @@ import pandas as pd
 st.title("Video Game Sales Analysis")
 st.write("This app analyzes video game sales data from the `vgsales.csv` dataset.")
 #
-df = pd.read_csv(data/vgsales.csv)
+df = pd.read_csv("data/vgsales.csv")
 #OR
 # File upload
 #uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
